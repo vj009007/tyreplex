@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-[#f5f6f9]
+}
+
+.review-slider  p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.review-slider .slick-track {
+    display: flex !important;
+    gap: 10px;
+}
+.arrowStyle .slick-next{
+    right: 20px !important;
+    top: -32px;
+}
+.arrowStyle .slick-prev{
+    right: 80px !important;
+    z-index: 1;
+    top: -32px;
+    left: auto;
+}
+.arrowStyle .slick-prev:before, .arrowStyle .slick-next:before{
+    color: black !important;
+}
+.arrowStyle .slick-prev:before {
+    content: '';
+    background:#230e0e3d url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tbGVmdCI+PHBhdGggZD0ibTE1IDE4LTYtNiA2LTYiLz48L3N2Zz4=) no-repeat center center;
+    width: 28px;
+    height: 28px;
+    display: block;
+    border-radius: 50px;
+    background-size: 22px;
+}
+.arrowStyle .slick-next:before {
+    content: '';
+    background:#230e0e3d url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tcmlnaHQiPjxwYXRoIGQ9Im05IDE4IDYtNi02LTYiLz48L3N2Zz4=) no-repeat center center;
+    width: 28px;
+    height: 28px;
+    display: block;
+    border-radius: 50px;
+    background-size: 22px;
+}
+/****** brand Logos *****/
+.brand-logo {
+    display: inline-block;
+}
+.brand-logo{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 8px;
+    height: 85px;
+    width: 168px;
+    max-height: inherit;
+    overflow: hidden;
+    background-size: 85px;
+    display: flex;
+    background-image: url(./assets/make_logo.png);
+    height: 35px;
+    max-height: 35px;
+}
+.brand-logo.brand-mrf {
+    background-position-y: -834px;
+}
+.brand-logo.brand-ceat {
+    background-position-y: -253px;
+}
+.brand-logo.brand-goodyear {
+    background-position-y: -69px;
+}
+.brand-logo.brand-apollo {
+    background-position-y: 3px;
+}
+.brand-logo.brand-bridgestone {
+    background-position-y: -35px;
+}
+.brand-logo.brand-jk {
+    background-position-y: -480px;
+}
+.brand-logo.brand-michelin {
+    background-position-y: -789px;
+}
+.brand-logo.brand-pirelli {
+    background-position-y: -973px;
+}
+.brand-logo.brand-yokohama {
+    background-position-y: -1232px;
+}
+.brand-logo.brand-tvs {
+    background-position-y: -1863px;
+    background-size: 145px;
+}
+.brand-logo.brand-continental {
+    background-position-y: -106px;
+}
+.brand-logo.brand-hankook {
+    background-position-y: -403px;
+}
+.brand-logo.brand-ralco {
+    background-position-y: -1005px;
+}
+.brand-logo.brand-maxxis {
+    background-position-y: -609px;
+}
+.brand-logo.brand-metro {
+    background-position-y: -353px;
+    background-size: 45px;
+}
+.brand-logo.brand-firestone {
+    background-position-y: -369px;
+}
+.brand-logo.brand-falken {
+    background-position-y: -336px;
+}
+.brand-logo.brand-ralson {
+    background-position-y: -1048px;
+}
+.brand-logo.brand-ultramile {
+    background-position-y: -890px;
+    background-size: 65px;
+}
+.brand-logo.brand-birla {
+    background-position-y: -199px;
+}
+.brand-logo.brand-kenda {
+    background-position-y: -525px;
+}
+.brand-logo.brand-metzeler {
+    background-position-y: -747px;
+}
+.brand-logo.brand-kumho {
+    background-position-y: -571px;
+}
+.brand-logo.brand-nexen {
+    background-position-y: -923px;
+}
+.brand-logo.brand-vredestein {
+    background-position-y: -1826px;
+}
+.brand-logo.brand-mrl {
+    background-position-y: -1872px;
+}
+.brand-logo.brand-maruti {
+    background-position-y: -2415px;
+}
+.brand-logo.brand-linglong {
+    background-position-y: -1470px;
+}
+.brand-logo.brand-mirage {
+    background-position-y: -1373px;
+    background-size: 77px;
+}
+.brand-logo.brand-duraturn {
+    background-position-y: -1392px;
+    background-size: 83px;
+}
+.brand-logo.brand-dunlop {
+    background-position-y: -1465px;
+    background-size: 90px;
+}
+.brand-logo.brand-jinyu {
+    background-position-y: -1795px;
+    background-size: 85px;
+}
+.brand-logo.brand-sailun {
+    background-position-y: -1752px;
+}
+.brand-logo.brand-landsail {
+    background-position-y: -1716px;
+}
+.brand-logo.brand-bedrock {
+    background-position-y: -1970px;
+    background-size: 100px;
+}
+.brand-logo.brand-kelly {
+    background-position-y: -1645px;
+    background-size: 85px;
+}
+.brand-logo.brand-vk {
+    background-position-y: -2252px;
+    background-size: 100px;
+}
+.dealer-section .brand-logo{
+    background-image: url(./assets/make_logo.png);
+    overflow: hidden;
+    height: 85px;
+    width: 168px;
+    display: inline-flex;
+    min-height: 15px;
+    min-width: 53px;
+    max-width: 100px;
+    background-size: 66px;
+    max-height: 27px;
+    background-position: 0 0px;
+    z-index: 9;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.dealer-section a img{
+    transition: all .3s ease;
+}
+.dealer-section a:hover img{
+    transform: scale(1.05);
+}
+.list-style li{
+    position: relative;
+    list-style: none;
+    padding-left: 40px;
+}
+.list-style li:before{
+    position: absolute;
+    left: 12px;
+    top: 4px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZWNrLWNoZWNrIj48cGF0aCBkPSJNMTggNiA3IDE3bC01LTUiLz48cGF0aCBkPSJtMjIgMTAtNy41IDcuNUwxMyAxNiIvPjwvc3ZnPg==);
+    width: 20px;
+    height: 20px;
+    content: '';
+    background-size: contain;
+}
