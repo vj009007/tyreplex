@@ -225,3 +225,9 @@ body{
     content: '';
     background-size: contain;
 }
+.banner-slider .slick-slide {
+    padding-left: 14px;
+    display: block;
+    position: relative;
+    right: -60px;
+}

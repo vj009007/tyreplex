@@ -36,7 +36,7 @@ function ReviewList() {
     };
   return (
     <div>
-        <h5 className='px-4 text-base font-semibold'>2278 Google Reviews</h5>
+        <h5 className='px-4 text-base font-semibold mt-8'>2278 Google Reviews</h5>
         <Slider {...settings} className='review-slider arrowStyle mt-4'>
             {reviews.map((review, index) => {
                 const firstLetter = review.name.charAt(0).toUpperCase();

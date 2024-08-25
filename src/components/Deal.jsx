@@ -44,7 +44,7 @@ function Deal() {
   return (
     <div className="my-6">
         <div className="bg-white md:p-5 p-3 rounded-lg">
-            <h5 class="px-4 text-base font-semibold">Deals in</h5>
+            <h5 className="px-4 text-base font-semibold">Deals in</h5>
             <Slider {...settings} className='review-slider arrowStyle mt-4'>
             {brands.map((item, index) => {
                  return(

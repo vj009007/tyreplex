@@ -7,6 +7,7 @@ import Breadcrumb from '../components/breadcrumb.jsx';
 import Payment from '../components/Paymant'
 import NewsLatter from '../components/NewsLetter.jsx'
 import { ToastContainer, toast } from 'react-toastify';
+import Banner from '../components/Banner.jsx'
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
     <div className='container px-4 mx-auto my-6'>
       <ToastContainer />
       <div className="bg-white md:p-5 p-3 rounded-lg">
+          <Banner />
           <ReviewList />
       </div>
       <Deal />
